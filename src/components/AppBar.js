@@ -22,7 +22,7 @@ function ButtonAppBar() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            boilerplate-react-pwa-fcm
+            React PWA
           </Typography>
           <a
             href="https://github.com/JChiquin"
