@@ -25,7 +25,7 @@ function Permission() {
           First at all, you need to allow notifications
           <br/>
           <Button variant="contained" color="primary">
-            Ask for notifications
+            Click Me!
           </Button>
         </Typography>
       </Paper>
