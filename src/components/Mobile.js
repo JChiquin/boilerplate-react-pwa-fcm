@@ -25,22 +25,22 @@ function Mobile() {
   return (
     <div>
       <Paper className={classes.root} elevation={3}>
-        <Typography variant="h5" component="h3" align="center" className={classes.text}>
+        <Typography variant="h4" component="h3" align="center" className={classes.text}>
           Are you using a mobile?
         </Typography>
-        <Typography component="p" align="center" className={classes.text}>
+        <Typography variant="h6" align="center" className={classes.text}>
           Please allow notifications like this:
           <br/>
-          <img alt="" src="https://lorempixel.com/100/100/"/>
+          <img  className={classNames(classes.imgFull, classes.border3)} alt="" src="imgs/mobile/mobile8.jpg"/>
         </Typography>
-        <Typography component="p" align="center" className={classes.text}>
+        <Typography variant="h6" align="center" className={classes.text}>
           Add the PWA to your homescreen
           <br/>
           <img  className={classNames(classes.imgFull, classes.border3)} alt="" src="imgs/mobile/mobile1.jpg"/>
           <br/>
           <img  className={classNames(classes.imgFull, classes.border3)} alt="" src="imgs/mobile/mobile2.jpg"/>
         </Typography>
-        <Typography component="p" align="center" className={classes.text}>
+        <Typography variant="h6" align="center" className={classes.text}>
           And see the magic:
           <br/>
           <img  className={classNames(classes.imgFull, classes.border3)} alt="" src="imgs/mobile/mobile3.jpg"/>
@@ -52,6 +52,8 @@ function Mobile() {
           <img  className={classNames(classes.imgFull, classes.border3)} alt="" src="imgs/mobile/mobile6.jpg"/>
           <br/>
           <img  className={classNames(classes.imgFull, classes.border3)} alt="" src="imgs/mobile/mobile7.jpg"/>
+          <br/>
+          <img  className={classNames(classes.imgFull, classes.border3)} alt="" src="imgs/mobile/mobile9.jpg"/>
         </Typography>
       </Paper>
     </div>

@@ -26,22 +26,22 @@ function Desktop() {
   return (
     <div>
       <Paper className={classes.root} elevation={3}>
-        <Typography variant="h5" component="h3" align="center" className={classes.text}>
+        <Typography variant="h4" component="h3" align="center" className={classes.text}>
           Are you using a PC?
         </Typography>
-        <Typography component="p" align="center" className={classes.text}>
+        <Typography variant="h6" align="center" className={classes.text}>
           Please allow notifications like this:
           <br/>
-          <img alt="" src="https://lorempixel.com/100/100/"/>
+          <img className={classNames(classes.imgFull, classes.border3)}  alt="" src="imgs/desktop/desktop6.png"/>
         </Typography>
-        <Typography component="p" align="center" className={classes.text}>
+        <Typography variant="h6" align="center" className={classes.text}>
           Add the PWA to your desktop
           <br/>
           <img className={classes.border3} alt="" src="imgs/desktop/desktop1.png"/>
           <br/>
           <img className={classNames(classes.imgFull, classes.border3)}  alt="" src="imgs/desktop/desktop2.png"/>
         </Typography>
-        <Typography component="p" align="center" className={classes.text}>
+        <Typography variant="h6" align="center" className={classes.text}>
           And see the magic:
           <br/>
           <img className={classes.border3} alt="" src="imgs/desktop/desktop4.png"/>
@@ -49,6 +49,8 @@ function Desktop() {
           <img className={classNames(classes.imgFull, classes.border3)} alt="" src="imgs/desktop/desktop3.png"/>
           <br/>
           <img className={classNames(classes.imgFull, classes.border3)} alt="" src="imgs/desktop/desktop5.png"/>
+          <br/>
+          <img className={classNames(classes.imgFull, classes.border3)} alt="" src="imgs/desktop/desktop7.png"/>
         </Typography>
       </Paper>
     </div>
