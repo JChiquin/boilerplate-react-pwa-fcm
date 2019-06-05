@@ -6,8 +6,8 @@ A boilerplate for quick start with:
 - React
 - Material-UI
 - React-router
-- create-react-app (CRA)
-- progressive web application (PWA)
+- Create React App (CRA)
+- Progressive Web Application (PWA)
 - Firebase Cloud Messaging (FCM)
 
 ### Build Setup
