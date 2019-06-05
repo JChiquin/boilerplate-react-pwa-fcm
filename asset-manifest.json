@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/boilerplate-react-pwa-fcm/static/css/main.cfda8877.chunk.css",
+    "main.js": "/boilerplate-react-pwa-fcm/static/js/main.4ed1e046.chunk.js",
+    "main.js.map": "/boilerplate-react-pwa-fcm/static/js/main.4ed1e046.chunk.js.map",
+    "runtime~main.js": "/boilerplate-react-pwa-fcm/static/js/runtime~main.a31dbf1e.js",
+    "runtime~main.js.map": "/boilerplate-react-pwa-fcm/static/js/runtime~main.a31dbf1e.js.map",
+    "static/js/2.7dc066f3.chunk.js": "/boilerplate-react-pwa-fcm/static/js/2.7dc066f3.chunk.js",
+    "static/js/2.7dc066f3.chunk.js.map": "/boilerplate-react-pwa-fcm/static/js/2.7dc066f3.chunk.js.map",
+    "index.html": "/boilerplate-react-pwa-fcm/index.html",
+    "precache-manifest.fce3cad7d11b476fb747630869e28999.js": "/boilerplate-react-pwa-fcm/precache-manifest.fce3cad7d11b476fb747630869e28999.js",
+    "service-worker.js": "/boilerplate-react-pwa-fcm/service-worker.js",
+    "static/css/main.cfda8877.chunk.css.map": "/boilerplate-react-pwa-fcm/static/css/main.cfda8877.chunk.css.map"
+  }
+}
