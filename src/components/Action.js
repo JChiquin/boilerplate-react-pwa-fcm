@@ -25,7 +25,7 @@ function Action() {
         <Typography variant="h4">
           Congrats!
         </Typography>
-        <Typography variant="h5" component="h3">
+        <Typography variant="h4" component="h3">
           You has clicked a notification.
         </Typography>
         
