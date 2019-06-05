@@ -11,7 +11,7 @@ export const initializeFirebase = () => {
     appId: "1:138477924028:web:7d2262f03c8bdd71"
   });
   const messaging = firebase.messaging();
-  messaging.onMessage(payload => {
+  messaging.onMessage(payload => { //For showing firebase notification in app (not background)
     navigator.serviceWorker.getRegistration().then((reg) => {
       reg.showNotification('Firebase Notification', payload.notification);
     })

@@ -42,7 +42,7 @@ class Notification extends React.Component {
             "notification": {
           		"title": "Firebase notification (background - clickable)",
           		"body": this.state.body,
-          		"icon": "icons/48.png",
+          		"icon": "icons/192.png",
           		"click_action": "./action"
           	},
           	"time_to_live": 2419200,
@@ -61,8 +61,8 @@ class Notification extends React.Component {
         navigator.serviceWorker.getRegistration().then((reg) => {
           var options = {
             body: this.state.body,
-            icon: "icons/48.png",
-            vibrate: [100, 50, 100],
+            icon: "icons/192.png",
+            vibrate: [150,150,150,150,75,75,150,150,150,150,450],
             data: {
               dateOfArrival: Date.now(),
               primaryKey: 1
