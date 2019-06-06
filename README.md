@@ -1,5 +1,5 @@
 # boilerplate-react-pwa-fcm
-https://jchiquin.github.io/boilerplate-react-pwa-fcm/
+https://boilerplate-react-pwa-fcm.web.app/
 
 A boilerplate for quick start with: 
 
