@@ -16,11 +16,27 @@ const useStyles = makeStyles(theme => ({
 function Permission() {
   const classes = useStyles();
   const [values, setValues] = React.useState({
-    permission: !!localStorage.tokenDevice
+    permission: !!localStorage.tokenDevice,
+    asking: false
   });
   
   const callbackPermission = () => {
-    setValues({ ...values, permission: true });
+    setValues({ ...values, permission: true, asking: false });
+  }
+
+  const handleButtonClick = () => {
+    setValues({ ...values, asking: true });
+    askForPermissioToReceiveNotifications(callbackPermission)
+  }
+
+  const labelButton = () => {
+    const {permission, asking} = values
+    if(asking)
+      return "Wait..."
+    else if(permission)
+      return "It's ready!"
+    else
+      return "Click Me!"
   }
 
   return (
@@ -32,8 +48,8 @@ function Permission() {
         <Typography component="p" align="center" className={classes.text}>
           First at all, you need to allow notifications
           <br/>
-          <Button disabled={values.permission} onClick={() => askForPermissioToReceiveNotifications(callbackPermission)} variant="contained" color="primary">
-            {values.permission ? "It's ready!" : "Click Me!"}
+          <Button disabled={values.permission || values.asking} onClick={handleButtonClick} variant="contained" color="primary">
+            {labelButton()}
           </Button>
         </Typography>
       </Paper>
